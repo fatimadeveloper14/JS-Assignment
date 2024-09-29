@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kode Mono", monospace;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body h1 {
+  margin: 1rem;
+}
+
+header {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2rem;
+  text-align: center;
+  background-color: #fba834;
+  padding: 2rem 2rem 0 2rem;
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: red;
+  transition: all 0.5s;
+}
+
+header nav ul li a:hover,
+.active {
+  color: red;
+  background-color: #fff;
+  /* border: 1px solid red; */
+}
+
+footer {
+  padding: 1.6rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2rem;
+  background-color: #fba834;
+  /* margin-top: 5rem; */
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer span {
+  border-bottom: 4px solid rgba(255, 0, 0, 0.357);
+  transition: all 0.4s;
+}
+
+footer span:hover {
+  border-bottom: 4px solid rgb(255, 0, 0);
+  cursor: pointer;
+  color: red;
+}
